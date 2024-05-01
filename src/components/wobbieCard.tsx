@@ -7,13 +7,13 @@ export function WobbleCardDemo() {
   return (
     <>
     <div>
-    <h1 className="text-8xl  font-bold text-center mb-16 ">
+    <h1 className="text-5xl md:text-8xl  font-bold text-center mb-12 md:mb-16 mt-12">
         Info Spider 
       </h1> 
     </div>
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
       <WobbleCard
-        containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
+        containerClassName="col-span-1 lg:col-span-2 md:h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
         className=""
       >
         <div className="max-w-xs">

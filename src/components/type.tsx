@@ -20,7 +20,7 @@ export function TypewriterEffectSmoothDemo() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[24rem]  ">
+    <div className="flex flex-col items-center justify-center mt-16 md:mt-0 pb-16 md:pb-0 h-fit md:h-[24rem]  ">
       <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
         The road to freedom starts from here
       </p>
