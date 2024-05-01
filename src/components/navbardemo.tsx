@@ -80,7 +80,7 @@ function Navbar({ className }: { className?: string }) {
       </div>
       <div>
       <button className="px-4 py-2 bg-black text-white rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
-  Figma
+  Login
 </button>
       </div>
      
